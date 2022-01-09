@@ -26,6 +26,7 @@ steps:
 Phase 3: link up dictionary and anagram generator
 steps:
 - get user input to first generate anagrams ❌
+- constrain input to 7 letters only ❌
 - check anagrams against dictionary list ❌
 - display only valid ones ❌
 
@@ -40,12 +41,26 @@ steps:
 
 Phase 5: link up previous development to new dictionary database instead of provided api
 steps:
--
--
--
+- set up REST API ❌
+
 
 Phase 6: add other langauge scrabble dictionaries
+- find English dictionary ❌
+- any other language we fancy at the time ❌
 
 Phase 7: style page extensively
+- think about ui/ux ❌
+- figma design ❌
+- implementation ❌
+- sign-up to various ads services? ❌
+
+Phase 8: launch for live testing
+- release for testing by public ❌
+- bug catching and fixing ❌
+
+Phase 9: increase anagram checker from 7 letters to any number of letters
+- review input constrained code ❌
+- increase dictionary content to include any word ❌
+
 
 
