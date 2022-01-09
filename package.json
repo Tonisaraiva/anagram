@@ -1,0 +1,17 @@
+{
+  "name": "anagrams_dictionary",
+  "version": "1.0.0",
+  "description": "an anagram programme checking a french dictionary",
+  "main": "anagram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "keywords": [
+    "anagrams",
+    "french",
+    "dictionary"
+  ],
+  "author": "Toni Saraiva",
+  "license": "ISC"
+}

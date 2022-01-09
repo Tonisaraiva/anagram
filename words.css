@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: rosybrown;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#searchText {
+
+    text-align: center;
+}
+
+#word {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
