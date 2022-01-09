@@ -62,5 +62,8 @@ Phase 9: increase anagram checker from 7 letters to any number of letters
 - review input constrained code ❌
 - increase dictionary content to include any word ❌
 
+Phase 10: redevelopment
+- consider React? ❌
+
 
 
