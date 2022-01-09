@@ -4,22 +4,22 @@ Phase one: get dictionary and user input to select word from dictionary
 steps:
 - find a scrabble dictionary api ❌
 - alternative find a normal french dictionary api :heavy_check_mark:
-- create project basic files (html, css, js) ✅
-- get data from the api ✅
-- get data test to display on html ✅
-- get input box for user input ✅
-- get submit button to action user input ✅
-- create eventlistener on user submission ✅
-- call api on user input request ✅
-- retrieve correct info and display on page ✅
-- basic styling of page ✅
+- create project basic files (html, css, js) :heavy_check_mark:
+- get data from the api :heavy_check_mark:
+- get data test to display on html :heavy_check_mark:
+- get input box for user input :heavy_check_mark:
+- get submit button to action user input :heavy_check_mark:
+- create eventlistener on user submission :heavy_check_mark:
+- call api on user input request :heavy_check_mark:
+- retrieve correct info and display on page :heavy_check_mark:
+- basic styling of page :heavy_check_mark:
 - if word not valid return "please type a valid word" "word not in the dictionary" ❌
 
 Phase 2: develop an anagram generator
 steps:
-- go through a string and make individual letters in an array ✅
-- combine these letters to create different new strings ✅
-- remove duplicate strings ✅
+- go through a string and make individual letters in an array :heavy_check_mark:
+- combine these letters to create different new strings :heavy_check_mark:
+- remove duplicate strings :heavy_check_mark:
 - display list of strings on html ❌
 - get the input from user ❌
 
@@ -33,8 +33,8 @@ steps:
 Phase 4: develop scrabble french dictionary database on heroku
 steps:
 - find scrabble dictionary ❌
-- if not develop one from different sources ✅
-- create local database with it ✅
+- if not develop one from different sources :heavy_check_mark:
+- create local database with it :heavy_check_mark:
 - check anagrams from that database ❌
 - move database from local to heroku ❌
 - check anagrams from that new location ❌
