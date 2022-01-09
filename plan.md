@@ -3,7 +3,7 @@ Finished project aim: Develop an anagrammer for french words which can be used f
 Phase one: get dictionary and user input to select word from dictionary
 steps:
 - find a scrabble dictionary api ❌
-- alternative find a normal french dictionary api ✅
+- alternative find a normal french dictionary api :heavy_check_mark:
 - create project basic files (html, css, js) ✅
 - get data from the api ✅
 - get data test to display on html ✅
