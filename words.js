@@ -19,6 +19,9 @@ async function getDefinition(){
         }
     })
     let data = await response.json();
+    // if (textInput !== data){
+    //     return "not a valid word"
+    // }
 console.log(data);
 document.getElementById("word").innerText = data[0].mot;
 document.getElementById("definition").innerText = data[0].definition ;
