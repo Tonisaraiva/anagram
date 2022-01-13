@@ -17,11 +17,20 @@ function anagram(){
 
         let word = letters[i];
         let anaList = word.split("").sort().join("").toLowerCase();
+        
       
 console.log(anaList);
 }};
 
 anagram();
+
+// // looking at permutations
+// take the string from the user input
+// split it to get each letter separately
+// add letters together to form a new string and repeat this operation changing the starting index
+// put this new list in an Array
+// check this array against the dictionary array and return the matching values 
+// => these will be our valid anagrams
 
 
 const stringPermutations = str => {
@@ -34,7 +43,16 @@ const stringPermutations = str => {
         []
       );
   };
+  let output = stringPermutations("abcdere")
   
-  console.log(stringPermutations('abcdere'));
+  console.log(output);
 
-  const checkDico = dicoFrancais.includes(stringPermutations)
+  // const checkDico = dicoFrancais.includes(stringPermutations)
+
+  const found = output.filter(r=> dicoFrancais.indexOf(r)!== -1)
+  console.log(found);
+
+
+  // array.forEach(element => {
+    
+  // });
