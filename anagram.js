@@ -35,10 +35,7 @@ anagram();
 
 const stringPermutations = str => {
     if (str.length <= 2) return str.length === 2 ? [str, str[1] + str[0]] : [str];
-    return str
-      .split('')
-      .reduce(
-        (acc, letter, i) =>
+    return str.split('').reduce((acc, letter, i) =>
           acc.concat(stringPermutations(str.slice(0, i) + str.slice(i + 1)).map(val => letter + val)),
         []
       );
@@ -47,12 +44,35 @@ const stringPermutations = str => {
   
   console.log(output);
 
-  // const checkDico = dicoFrancais.includes(stringPermutations)
-
+//idea 1:
+  const checkDico = dicoFrancais.includes(stringPermutations)
+  console.log(checkDico);
+//idea 2:
   const found = output.filter(r=> dicoFrancais.indexOf(r)!== -1)
   console.log(found);
 
-
+//idea 3:
   // array.forEach(element => {
     
   // });
+
+//idea 4:
+  function arrayMatch(output, dicoFrancais) {
+  var arr = [];  // Array to contain match elements
+  for(var i=0 ; i<output.length ; ++i) {
+    for(var j=0 ; j<dicoFrancais.length ; ++j) {
+      if(output[i] == dicoFrancais[j]) {    // If element is in both the arrays
+        arr.push(output[i]);        // Push to arr array
+      }
+    }
+  }
+   
+  return arr;  // Return the arr elements
+
+}
+console.log( arrayMatch(output, dicoFrancais));
+
+// idea 5:
+const intersection = output.filter(element => dicoFrancais.includes(element));
+console.log(intersection);
+
